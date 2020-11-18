@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export default styled.button`
   display: block;
@@ -10,4 +10,8 @@ export default styled.button`
   text-align: left;
   font: inherit;
   color: inherit;
+
+  :focus {
+    outline: none;
+  }
 `;
